@@ -21,7 +21,6 @@ class Base:
     scoreDate = 'N/A'
     previous = 'N/A'
     def __init__(self, username, password, filename):
-        self.filepath = filepath
         self.username = username
         self.password = password
         self.filename = filename
